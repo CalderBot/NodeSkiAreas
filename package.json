@@ -3,7 +3,9 @@
 		"express": "^4",
 		"jade": "^1",
 		"body-parser": "^1",
-	}
+	},	
+	// For heroku deployment
+	"scripts": {
+    "start":"node app.js"
+  	}
 }
-// For heroku deployment
-{"start":"node app.js"}
